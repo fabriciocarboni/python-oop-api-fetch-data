@@ -1,0 +1,5 @@
+requests==2.31.0
+pandas==2.2.1
+snowflake-connector-python==3.7.1
+pyarrow==15.0.2
+python-dotenv==1.0.1

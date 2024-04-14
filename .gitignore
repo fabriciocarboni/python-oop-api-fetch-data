@@ -1,0 +1,4 @@
+env/*
+auth/*
+.env
+src/__pycache__
