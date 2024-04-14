@@ -45,6 +45,7 @@ def main() -> None:
     # e.g., snowflake_manager.insert_data(data_frame, 'your_target_table')
     
     snowflake_manager.connect()
+    # TODO: Insert data
 
 
 if __name__ == "__main__":

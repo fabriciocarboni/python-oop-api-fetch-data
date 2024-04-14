@@ -22,9 +22,7 @@ class SnowflakeHandler:
         """
         Connect to Snowflake using private key and returns SnowflakeConnection
         """
-        # print(self.private_key_path)
-        # print(self.account)
-        # exit()
+
         with open(self.private_key_path, "rb") as key:
             p_key = serialization.load_pem_private_key(
                 key.read(),
