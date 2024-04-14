@@ -14,7 +14,7 @@ def main() -> None:
     warehouse=os.getenv("WAREHOUSE")
     database=os.getenv("DATABASE")
     schema=os.getenv("SCHEMA")
-    api_token=os.getenv("IIR_API_TOKEN")
+    api_token=os.getenv("API_TOKEN")
     url = os.getenv("API_URL")
 
     two_years_ago = datetime.now() - timedelta(days=730)
